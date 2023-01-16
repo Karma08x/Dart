@@ -27,4 +27,16 @@ void main() {
 // } else {
 //   print('The number is zero.');
 // }
+
+//(4)___for (int i = 0; i <= 100; i++) {
+//   print('Karma');
+// }
+
+  stdout.write("Enter number: ");
+  int num = int.parse(stdin.readLineSync()!);
+  if (num > 0) {
+    print(num + num);
+  } else {
+    print('This is a negative number.');
+  }
 }
