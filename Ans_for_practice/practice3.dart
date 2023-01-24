@@ -14,11 +14,11 @@ void printEvenNumbers(int start, int end) {
   }
 }
 
-// void main() {
-//   int start = 2;
-//   int end = 10;
-//   printEvenNumbers(start, end);
-// }
+void main() {
+  int start = 2;
+  int end = 10;
+  printEvenNumbers(start, end);
+}
 
 //(3)___import 'dart:math';
 
